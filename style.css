@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background:linear-gradient(to bottom right, rgb(246, 132, 151),rgb(243, 188, 243))
+    
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.img-whats{
+    height: 30px;
+}
+
+
+.imagem-logo{
+    height: 250px;
+    
+}
+
+.menu-navegaçao{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.menu-item{
+    font-family: 'Kaushan Script', cursive;
+    color:black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+
+.conteudo-pricipal-escrito-titulo{
+    padding: 40px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 100px;
+    
+    
+}
+
+.conteudo-principal-escrito-apresentaçao{
+    display: flex;
+    justify-content:center;
+    width: 550px;
+    padding: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.conteudo-fotos{
+    display: flex;
+    margin-top:45px ;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.titulo-fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    
+}
+
+.rodape{
+    display: flex;
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+}
+
+.foto-rodape{
+    height: 400px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 30px;
+
+    
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.imagem-rede{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
